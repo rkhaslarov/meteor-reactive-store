@@ -15,7 +15,7 @@ Store = class Store {
 
 	synchronize(cursor, store) {
 
-		if (!cursor || !(cursor instanceof Mongo.Cursor) || !store) {
+		if (!cursor || !(cursor instanceof Mongo.Cursor) || !(cursor instanceof FilesCursor) || !store) {
 			throw Error("Mongo.Collection cursor and callback params needed");
 		}
 
