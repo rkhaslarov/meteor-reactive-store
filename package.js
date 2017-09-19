@@ -1,6 +1,6 @@
 Package.describe({
 	"name" : "rkhaslarov:reactive-store",
-	"version" : "1.0.1",
+	"version" : "1.0.3",
 	"summary" : "This package provides a reactive key-value store for your application.",
 	"git" : "https://github.com/rkhaslarov/meteor-reactive-store",
 	"documentation" : "README.md"
